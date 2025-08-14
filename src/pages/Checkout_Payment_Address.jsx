@@ -288,7 +288,7 @@ const Checkout_Payment_Address = () => {
               Checkout();
             }} >
               <div className="checkoutbtn uppercase flex flex-row items-center ">
-                <img src={`${baseURL}/static/checkout.gif`} className='lg:w-[3vw] md:w-[3vw] w-[8vw] object-contain' alt="checkout" />
+                <img src={`${baseURL}/static/checkout.gif`} className='lg:w-[3vw] md:w-[3vw] w-[8vw] lg:text-base md:text-sm text-xs object-contain' alt="checkout" />
                 <div>Checkout</div>
               </div>
             </div>

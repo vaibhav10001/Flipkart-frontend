@@ -171,8 +171,8 @@ const SignUp = () => {
                         {/* Login  */}
                         <div className="relative lg:p-4 lg:bottom-[-87px] bottom-[-80px] lg:text-lg md:text-lg text-base">
                             <div className="create-account left-0 flex justify-center lg:flex-row flex-col items-center gap-[5px] md:flex-row">
-                                <a href="/Login" className="text-blue-500 cursor-pointer ">Existing User? </a>
-                                <a href="/Login" className="text-blue-500 "> Log in</a>
+                                <div onClick={() => { navigate("/Login") }} className="text-blue-500 cursor-pointer ">Existing User? </div>
+                                <div onClick={() => { navigate("/Login") }} className="text-blue-500 "> Log in</div>
                             </div>
                         </div>
                     </div>
