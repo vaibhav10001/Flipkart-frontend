@@ -132,7 +132,7 @@ const Checkout_Payment_Address = () => {
 
       // After all individual orders placed, empty the cart
       if (allOrdersSuccessful) {
-        const emptyRes = await fetch("http://localhost:3000/EmptyCart", {
+        const emptyRes = await fetch(`${baseURL}/EmptyCart`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ username: User.user.Username }),
