@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1 0 auto; /* Allows main to grow and fill space */
+  }
+  
+  footer {
+    flex-shrink: 0; /* Prevents footer from shrinking */
+    width: 100%;
+    /* Use position: fixed for sticky behavior */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    /* Optional: Add padding to main content to prevent overlap */
+  }
+  
+  main {
+    padding-bottom: 60px; /* Adjust based on footer height (e.g., 60px for py-6) */
+  }
