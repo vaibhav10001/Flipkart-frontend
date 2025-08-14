@@ -29,7 +29,7 @@ const ImageSlider = () => {
                 {arr.map((image, index) => {
                     return (
                         <div key={index} className='w-fit'>
-                            <img src={`./src/images/pic-1.png`} alt="image" className='object-contain' onClick={() => navigate("/")} />
+                            <img src={`${baseURL}/static/${image}`} alt="image" className='object-contain' onClick={() => navigate("/")} />
                         </div>
                     )
                 }

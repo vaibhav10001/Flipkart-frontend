@@ -231,7 +231,7 @@ const CartPage = () => {
                                                     navigate("/Checkout_Payment_Address")
                                                 }
                                             }}>
-                                                <img src="public/checkout.gif" className='w-[3vw] lg:h-[6vh] md:h-[6vh] h-[4vh]' alt="checkout" />
+                                                <img src={`${baseURL}/static/checkout.gif`} className='w-[3vw] lg:h-[6vh] md:h-[6vh] h-[4vh]' alt="checkout" />
                                                 <div>Checkout</div>
 
                                             </button>

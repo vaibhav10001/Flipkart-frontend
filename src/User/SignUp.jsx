@@ -65,7 +65,7 @@ const SignUp = () => {
                         </div>
 
                         <div className="img bg-cover bg-center relative ">
-                            <img src={`./src/images/signup.png`} alt="Login" className='relative lg:top-[100px] bottom-[10px]' />
+                            <img src={`${baseURL}/static/signup.png`} alt="Login" className='relative lg:top-[100px] bottom-[10px]' />
                         </div>
                     </div>
 
@@ -152,11 +152,11 @@ const SignUp = () => {
                                 </label>
                                 {showPassword ? (
                                     <>
-                                        <img src={`./src/images/hide.png`} alt="show" onClick={() => { setShowPassword(false) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px] " />
+                                        <img src={`${baseURL}/static/hide.png`} alt="show" onClick={() => { setShowPassword(false) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px] " />
                                     </>
                                 ) : (
                                     <>
-                                        <img src={`./src/images/show.png`} alt="show" onClick={() => { setShowPassword(true) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px]" />
+                                        <img src={`${baseURL}/static/show.png`} alt="show" onClick={() => { setShowPassword(true) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px]" />
                                     </>
                                 )}
 

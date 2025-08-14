@@ -99,7 +99,7 @@ const Login = () => {
                             <span className=' lg:text-xl md:text-xl text-[11px]'>Get access to your Orders, Wishlist and Recommendations</span>
                         </p>
                         <div className="img bg-cover bg-center relative lg:top-[110px] top-[170px] ">
-                            <img src={`./src/images/login.png`} alt="Login" className='relative' />
+                            <img src={`${baseURL}/static/login.png`} alt="Login" className='relative' />
                         </div>
                     </div>
 
@@ -135,11 +135,11 @@ const Login = () => {
                                 </label>
                                 {showPassword ? (
                                     <>
-                                        <img src={`./src/images/hide.png`} alt="show" onClick={() => { setShowPassword(false) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px] lg:mr-[60px]" />
+                                        <img src={`${baseURL}/static/hide.png`} alt="show" onClick={() => { setShowPassword(false) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px] lg:mr-[60px]" />
                                     </>
                                 ) : (
                                     <>
-                                        <img src={`./src/images/show.png`} alt="show" onClick={() => { setShowPassword(true) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px]" />
+                                        <img src={`${baseURL}/static/show.png`} alt="show" onClick={() => { setShowPassword(true) }} className="w-6 h-6 sm:w-6 sm:h-6 mr-[30px]" />
                                     </>
                                 )}
 
