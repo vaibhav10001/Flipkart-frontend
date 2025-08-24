@@ -134,7 +134,7 @@ const Header = () => {
                                     ref={dropdownRef}
                                 >
                                     <div className={`container flex flex-row items-center `} >
-                                        <img src={`${baseURL}/static/login_header.gif`} className='lg:w-[3vw] ml-[5px] lg:h-[6vh] w-[2vw] h-[2vh]' autoPlay loop muted playsInline />
+                                        <img src={`${baseURL}/static/login_header.gif`} className='lg:w-[3vw] ml-[5px] lg:h-[6vh] w-[3vw] h-[2vh]' autoPlay loop muted playsInline />
                                         <li className={`cursor-pointer hover:scale-110 rounded-[10px] p-[5px] text-black lg:text-[20px] text-[12px]`}
                                             onClick={() => navigate("/Login")}
                                         >Login
