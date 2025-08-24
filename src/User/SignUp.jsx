@@ -50,7 +50,7 @@ const SignUp = () => {
     return (
         <>
             <div className="containe items-center flex justify-center w-full mt-[40px] ">
-                <div className="signup-containe border-red-300 border-2 lg:w-[60vw] w-[85vw] shadow-[0_20px_15px_5px_rgb(0_0_0_/_0.15),_0_10px_20px_-4px_rgb(0_0_0_/_0.15)] max-h-[100vh] flex  ">
+                <div className="signup-containe lg:w-[60vw] w-[85vw] shadow-[0_20px_15px_5px_rgb(0_0_0_/_0.15),_0_10px_20px_-4px_rgb(0_0_0_/_0.15)] max-h-[100vh] flex  ">
 
                     <div className="left-block lg:w-[25vw] lg:h-[80vh] md:h-[85vh] h-[90vh] w-[35vw] lg:pr-0 pr-[10px] border-black border-2 bg-[#2874f0] text-white flex items-center flex-col">
                         <div className='h-[50vh] lg:h-[20vh]'>

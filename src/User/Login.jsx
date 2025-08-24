@@ -87,7 +87,7 @@ const Login = () => {
     return (
         <>
             <div className="containe items-center flex justify-center mt-[40px] w-full ">
-                <div className="login-containe border-red-500 border-2 lg:w-[60vw] m-[20px] md:w-[70vw] sm:w-[100vh] shadow-[0_20px_15px_5px_rgb(0_0_0_/_0.15),_0_10px_20px_-4px_rgb(0_0_0_/_0.15)] max-h-[110vh] flex p-0  ">
+                <div className="login-containe  lg:w-[60vw] m-[20px] md:w-[70vw] sm:w-[100vh] shadow-[0_20px_15px_5px_rgb(0_0_0_/_0.15),_0_10px_20px_-4px_rgb(0_0_0_/_0.15)] max-h-[110vh] flex p-0  ">
 
                     <div className="left-block lg:w-[25vw] md:w-[40vw] sm:w-[30vw] w-[35vw] lg:h-[70vh] md:h-[50vh]  h-[70vh] border-2 border-black bg-[#2874f0] text-white">
                         <span >
