@@ -134,7 +134,7 @@ const Header = () => {
                                     ref={dropdownRef}
                                 >
                                     <div className={`container flex flex-row items-center `} >
-                                        <img src={`${baseURL}/static/login_header.gif`} className='lg:w-[3vw] ml-[5px] lg:h-[6vh] w-[2vw] h-[3vh]' autoPlay loop muted playsInline />
+                                        <img src={`${baseURL}/static/login_header.gif`} className='lg:w-[3vw] ml-[5px] lg:h-[6vh] w-[2vw] h-[2vh]' autoPlay loop muted playsInline />
                                         <li className={`cursor-pointer hover:scale-110 rounded-[10px] p-[5px] text-black lg:text-[20px] text-[12px]`}
                                             onClick={() => navigate("/Login")}
                                         >Login
@@ -194,10 +194,7 @@ const Header = () => {
                             <video src={`${baseURL}/static/shopping-cart.mp4`} autoPlay loop muted playsInline className='lg:w-[5vw] w-[15px] h-[15px] lg:h-[5vh] flex items-center' />
                             <li className='cursor-pointer lg:hover:scale-110 rounded-[10px] text-[10px]  lg:text-[22px] text-black' onClick={() => navigate("/CartPage")}>Cart</li>
                         </div>
-                        <div className=" flex flex-row items-center lg:hover:scale-110 cursor-pointer ">
-                            <video src={`${baseURL}/static/seller.mp4`} autoPlay loop muted playsInline className='lg:w-[5vw] w-[15px] h-[15px] lg:h-[5vh] ' />
-                            <li className='cursor-pointer rounded-[10px] text-[10px] lg:text-[15.5px] text-black'>Become a Seller</li>
-                        </div>
+
                     </ul>
                 </div>
             </div>
