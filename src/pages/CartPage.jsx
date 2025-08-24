@@ -221,7 +221,7 @@ const CartPage = () => {
                                             &nbsp;${totalAmount.toFixed(2)}
                                         </div>
                                         <div className="line lg:w-[17vw] md:w-[30vw] w-[1px] lg:h-[1px] md:h-[1px] h-[8vh] bg-black m-[20px]"></div>
-                                        <div className="checkout lg:text-[20px] md:text-[20px] flex justify-center items-center lg:mr-[25px] cursor-pointer hover:scale-110 rounded-lg border-2 border-black">
+                                        <div className="checkout lg:text-[20px] md:text-[20px] flex justify-center items-center lg:mr-[25px] cursor-pointer hover:scale-95 rounded-lg border-2 border-black">
                                             <button className="checkout rounded-lg lg:p-[5px] md:px-[15px] p-[5px] lg:w-full md:w-full w-full lg:h-[7vh] flex flex-row items-center hover:scale-110 justify-center lg:text-[2vw] md:text-[3vw] text-[4vw]" disabled={!cart} onClick={() => {
                                                 if (cart) {
                                                     Checkout();
