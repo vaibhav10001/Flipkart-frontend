@@ -12,7 +12,7 @@ const Placeorder = () => {
 
     }, [])
     return (
-        <div className="min-h-screen w-full flex flex-col justify-center items-center bg-white">
+        <div className="min-h-screen w-full flex flex-col justify-center items-center ">
             <Loader2 className="animate-spin text-indigo-600 w-16 h-16 mb-4" />
             <h2 className="text-xl font-semibold text-gray-800">
                 Processing your order...
